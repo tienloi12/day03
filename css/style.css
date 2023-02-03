@@ -1,0 +1,44 @@
+
+.todo-list{
+    box-shadow: 10px 19px 5px 1px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 10px 19px 5px 1px rgba(0,0,0,0.56);
+    -moz-box-shadow: 10px 19px 5px 1px rgba(0,0,0,0.56);
+    width: fit-content;
+    padding: 20px;
+
+}
+
+.todo-list-title{
+    padding: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.todo-list-list{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5rem; 
+    transition: 0.5s;
+}
+.todo-list-list li:hover{
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.todo-list-button{
+    padding: 12px;
+    border: none;
+    background-color: white;
+    font-family: 'Maven Pro', sans-serif;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.todo-list-button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+.list-input{
+    font-family: 'Maven Pro', sans-serif;
+    border-radius: 8px;
+    height: 20px;
+}
